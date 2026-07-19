@@ -1,6 +1,7 @@
 # SubnetStreak
 > Tôi vibe code á :33 (Tôi đang ôn bài thì nãy ra ý tưởng này thôi)
-Nền tảng luyện IPv4 Subnetting cho CCNA với câu hỏi ngẫu nhiên, lời giải từng bước, XP, streak và theo dõi tiến độ ngay trên trình duyệt.
+
+>Nền tảng luyện IPv4 Subnetting cho CCNA với câu hỏi ngẫu nhiên, lời giải từng bước, XP, streak và theo dõi tiến độ ngay trên trình duyệt.
 
 ## Tính năng
 
