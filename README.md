@@ -1,8 +1,10 @@
 # SubnetStreak
 
-IPv4 Subnetting Trainer for CCNA 200-301 preparation.
+> Tôi vibe code á :33 (Tôi đang ôn bài thì nãy ra ý tưởng này thôi)
 
-SubnetStreak is a browser-based learning platform that helps users practice IPv4 subnetting through random questions, step-by-step explanations, progress tracking, XP, and streak systems.
+Nền tảng luyện tập IPv4 Subnetting dành cho quá trình ôn tập CCNA 200-301.
+
+SubnetStreak là một ứng dụng học tập trên trình duyệt giúp người dùng luyện tập subnetting thông qua câu hỏi ngẫu nhiên, lời giải từng bước, theo dõi tiến độ, hệ thống XP và streak.
 
 ## Screenshots
 
@@ -18,40 +20,46 @@ SubnetStreak is a browser-based learning platform that helps users practice IPv4
 
 <img width="1897" height="923" alt="image" src="https://github.com/user-attachments/assets/0f18cfad-a241-4753-a3ef-631b8c00a475" />
 
-### Setting
+### Settings
 
 <img width="1918" height="937" alt="image" src="https://github.com/user-attachments/assets/400ee7ad-fdc4-4e8a-a90a-0057805754eb" />
 
-## Features
+## Tính năng
 
-- Unlimited IPv4 subnetting practice
-- Random question generation
-- Step-by-step subnet explanations
-- Network address, broadcast, CIDR, wildcard mask, VLSM, and routing-related subnetting
-- Multiple practice modes:
+- Luyện tập IPv4 subnetting không giới hạn
+- Sinh câu hỏi ngẫu nhiên
+- Giải thích subnet từng bước
+- Hỗ trợ các dạng:
+  - Network Address
+  - Broadcast Address
+  - CIDR
+  - Wildcard Mask
+  - VLSM
+  - Routing-related Subnetting
+- Nhiều chế độ luyện tập:
   - Daily Challenge
   - Speed Run
   - Survival
   - Time Attack
   - Exam Mode
   - Boss Challenge
-- XP, streaks, statistics, and learning history
-- LocalStorage-based progress saving
+- Theo dõi XP, streak, thống kê và lịch sử học tập
+- Lưu dữ liệu bằng LocalStorage trên trình duyệt
 
-## Testing
+## Kiểm thử
 
-The subnet engine is validated with:
+Subnet engine được xác thực với:
 
-- 10,000 subnet calculations
-- 10,000 generated questions
+- 10.000 phép tính subnet
+- 10.000 câu hỏi được sinh tự động
 
-Run tests:
+Chạy kiểm thử:
 
 ```bash
 npm test
 ```
 
-Other checks:
+Các kiểm tra khác:
 
 ```bash
 npm run type-check
@@ -59,7 +67,7 @@ npm run lint
 npm run build
 ```
 
-## Tech Stack
+## Công nghệ sử dụng
 
 - Next.js 15
 - React 19
@@ -67,33 +75,32 @@ npm run build
 - Tailwind CSS
 - Lucide React
 
-## Installation
+## Cài đặt
 
-Clone the repository:
+Clone repository:
 
 ```bash
 git clone https://github.com/vinhkoo777/Subnet-App.git
 ```
 
-Install dependencies:
+Cài đặt dependencies:
 
 ```bash
 npm install
 ```
 
-Start development server:
+Khởi chạy môi trường phát triển:
 
 ```bash
 npm run dev
 ```
 
-Open:
+Truy cập:
 
 ```
 http://localhost:3000
 ```
 
-## Project Goal
+## Mục tiêu dự án
 
-This project was created to improve IPv4 subnetting skills for CCNA preparation while combining networking knowledge with modern frontend development.
-
+Dự án được xây dựng nhằm hỗ trợ cải thiện kỹ năng IPv4 subnetting trong quá trình ôn tập CCNA, đồng thời kết hợp kiến thức networking với phát triển frontend hiện đại.
