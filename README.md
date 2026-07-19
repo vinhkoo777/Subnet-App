@@ -29,3 +29,5 @@ npm run build
 ## Công nghệ
 
 Next.js 15, React 19, TypeScript và Lucide React.
+
+## Một số bức ảnh 
