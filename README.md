@@ -27,4 +27,4 @@ npm run build
 
 ## Công nghệ
 
-Next.js 15, React 19, TypeScript, Zustand, React Hook Form, Zod, Lucide React và Recharts.
+Next.js 15, React 19, TypeScript và Lucide React.
